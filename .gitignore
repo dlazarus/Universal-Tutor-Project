@@ -1,0 +1,14 @@
+# Datos personales de cada curso: NO forman parte de la herramienta
+tutor-*.md
+libro-*/
+.libro-backups/
+libro-*.pdf
+libro-*.html
+
+# Workspace local de cursos (si usas el repo como carpeta de trabajo)
+courses/
+
+# Entorno
+node_modules/
+.pi/trust.json
+*.log

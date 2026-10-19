@@ -1,0 +1,20 @@
+{
+  "name": "universal-tutor-project",
+  "version": "0.1.0",
+  "description": "Tutor personal de IA para pi coding agent: system prompt UniversalTutor + extensión que escribe automáticamente el libro del curso.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "tutor",
+    "aprendizaje"
+  ],
+  "license": "AGPL-3.0-only",
+  "pi": {
+    "extensions": [
+      "extensions/*.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
