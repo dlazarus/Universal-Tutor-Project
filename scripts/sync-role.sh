@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Copia el rol desde el directorio de trabajo personal al repositorio.
 #
-#   scripts/sync-role.sh            # ~/Apolo/RPG/Universal_Tutor_Project_v4_mini.md -> roles/Universal_Tutor_Project.md
+#   scripts/sync-role.sh            # ~/Apolo/RPG/UniversalTutor.md -> roles/Universal_Tutor_Project.md
 #   scripts/sync-role.sh <archivo>  # otro archivo de rol como origen
 #
 # Después de sincronizar: revisar CHANGELOG.md, subir "version" en package.json
@@ -9,7 +9,7 @@
 set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-ORIGEN="${1:-$HOME/Apolo/RPG/Universal_Tutor_Project_v4_mini.md}"
+ORIGEN="${1:-$HOME/Apolo/RPG/UniversalTutor.md}"
 DESTINO="$REPO_DIR/roles/Universal_Tutor_Project.md"
 
 if [[ ! -f "$ORIGEN" ]]; then

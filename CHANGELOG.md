@@ -7,7 +7,7 @@ piezas que hasta ahora vivían sueltas en el agente personal:
 
 - **Rol `UniversalTutor`** (`roles/Universal_Tutor_Project.md`): system prompt del
   tutor (modos de trabajo, técnicas de aprendizaje, temario, exámenes, libro).
-  Es la versión compacta del prompt que se usaba como `Universal_Tutor_Project_v4_mini`.
+  Es la versión compacta de iteraciones anteriores del prompt.
 - **Extensión `libro-tutor`** (`extensions/libro-tutor.ts`): escribe automáticamente el
   **libro del curso** a partir de los marcadores `<<<LIBRO …>>>` que emite el tutor y
   mantiene `00-indice.md`, además de `/libro status|check|fix|backup|pdf|toggle|pin|log`.
